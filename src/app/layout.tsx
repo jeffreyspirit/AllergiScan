@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="light">
       <head>
-        <title>AllergiAI — Ingredient Safety Scanner</title>
+        <title>AllergiScan — Ingredient Safety Scanner</title>
         <meta name="description" content="Scan cosmetic labels in Thai, English, and Chinese to identify allergens and INCI ingredients instantly." />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
       </head>
@@ -35,7 +35,7 @@ export default function RootLayout({
           {/* Header */}
           <header className="bg-surface/80 backdrop-blur-md sticky top-0 z-30 px-5 py-4 border-b border-border flex items-center justify-between shadow-sm">
             <h1 className="text-2xl font-black bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent tracking-tighter">
-              AllergiAI
+              AllergiScan
             </h1>
           </header>
 
