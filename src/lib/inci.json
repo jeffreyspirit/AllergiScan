@@ -1,0 +1,4263 @@
+[
+  {
+    "id": "1,2_hexanediol",
+    "name": "1,2-HEXANEDIOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "1_methylhydantoin_2_imide",
+    "name": "1-METHYLHYDANTOIN-2-IMIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "acacia_senegal_gum",
+    "name": "ACACIA SENEGAL GUM",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "acid_red_18",
+    "name": "ACID RED 18",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "acmella_oleracea_extract",
+    "name": "ACMELLA OLERACEA EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "acrylamide_sodium_acryloyldimethyltaurate_copolymer",
+    "name": "ACRYLAMIDE/SODIUM ACRYLOYLDIMETHYLTAURATE COPOLYMER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "acrylates_c10_30_alkyl_acrylate_crosspolymer",
+    "name": "ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "acrylic_acid_vp_crosspolymer",
+    "name": "ACRYLIC ACID/VP CROSSPOLYMER",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "alanine",
+    "name": "ALANINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "alcohol",
+    "name": "ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "alcohol_denat.",
+    "name": "ALCOHOL DENAT.",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "allantoin",
+    "name": "ALLANTOIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "aloe_barbadensis_leaf_juice",
+    "name": "ALOE BARBADENSIS LEAF JUICE",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "aloe_barbadensis_leaf_juice_powder",
+    "name": "ALOE BARBADENSIS LEAF JUICE POWDER",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "alpha_isomethyl_ionone",
+    "name": "ALPHA-ISOMETHYL IONONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "aluminum_hydroxide",
+    "name": "ALUMINUM HYDROXIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "aminoethanesulfinic_acid",
+    "name": "AMINOETHANESULFINIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "anhydroxylitol",
+    "name": "ANHYDROXYLITOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "anise_alcohol",
+    "name": "ANISE ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "aqua",
+    "name": "AQUA",
+    "description": "Water is the primary solvent in cosmetics.",
+    "functions": [
+      "Solvent"
+    ],
+    "safetyProfile": "safe",
+    "category": "Solvent"
+  },
+  {
+    "id": "argania_spinosa_kernel_oil",
+    "name": "ARGANIA SPINOSA KERNEL OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "arginine",
+    "name": "ARGININE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "arginine_hcl",
+    "name": "ARGININE HCL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "aroma",
+    "name": "AROMA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ascorbyl_glucoside",
+    "name": "ASCORBYL GLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "ascorbyl_palmitate",
+    "name": "ASCORBYL PALMITATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "aspartic_acid",
+    "name": "ASPARTIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "avena_sativa_leaf_extract",
+    "name": "AVENA SATIVA LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "bambusa_vulgaris_leaf_extract",
+    "name": "BAMBUSA VULGARIS LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "basic_blue_99",
+    "name": "BASIC BLUE 99",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "basic_brown_16",
+    "name": "BASIC BROWN 16",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "basic_brown_17",
+    "name": "BASIC BROWN 17",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "basic_red_51",
+    "name": "BASIC RED 51",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "behentrimonium_chloride",
+    "name": "BEHENTRIMONIUM CHLORIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "behenyl_alcohol",
+    "name": "BEHENYL ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "bellis_perennis_flower_extract",
+    "name": "BELLIS PERENNIS FLOWER EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "bentonite",
+    "name": "BENTONITE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "benzimidazole_diamond_amidoethyl_urea_carbamoyl_propyl_polymethylsilsesquioxane",
+    "name": "BENZIMIDAZOLE DIAMOND AMIDOETHYL UREA CARBAMOYL PROPYL POLYMETHYLSILSESQUIOXANE",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "benzoic_acid",
+    "name": "BENZOIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "benzophenone_3",
+    "name": "BENZOPHENONE-3",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "benzyl_alcohol",
+    "name": "BENZYL ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "benzyl_benzoate",
+    "name": "BENZYL BENZOATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "benzyl_salicylate",
+    "name": "BENZYL SALICYLATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "beta_glucan",
+    "name": "BETA-GLUCAN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "betaine",
+    "name": "BETAINE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "betula_alba_leaf_extract",
+    "name": "BETULA ALBA LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "bht",
+    "name": "BHT",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "bifida_ferment_lysate",
+    "name": "BIFIDA FERMENT LYSATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "biosaccharide_gum_1",
+    "name": "BIOSACCHARIDE GUM-1",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "bis_butyldimethicone_polyglyceryl_3",
+    "name": "BIS-BUTYLDIMETHICONE POLYGLYCERYL-3",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "bis_diglyceryl_polyacyladipate_2",
+    "name": "BIS-DIGLYCERYL POLYACYLADIPATE-2",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "bis_ethylhexyloxyphenol_methoxyphenyl_triazine",
+    "name": "BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "bisabolol",
+    "name": "BISABOLOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "boron_nitride",
+    "name": "BORON NITRIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "butyl_methoxydibenzoylmethane",
+    "name": "BUTYL METHOXYDIBENZOYLMETHANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "butylene_glycol",
+    "name": "BUTYLENE GLYCOL",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "butyrospermum_parkii_shea_butter",
+    "name": "BUTYROSPERMUM PARKII (SHEA) BUTTER",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "butyrospermum_parkii_butter",
+    "name": "BUTYROSPERMUM PARKII BUTTER",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "c10_18_triglycerides",
+    "name": "C10-18 TRIGLYCERIDES",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "c12_15_alkyl_benzoate",
+    "name": "C12-15 ALKYL BENZOATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "c13_16_isoparaffin",
+    "name": "C13-16 ISOPARAFFIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "c18_36_acid_glycol_ester",
+    "name": "C18-36 ACID GLYCOL ESTER",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "c18_36_acid_triglyceride",
+    "name": "C18-36 ACID TRIGLYCERIDE",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "caesalpinia_spinosa_fruit_extract",
+    "name": "CAESALPINIA SPINOSA FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "caffeine",
+    "name": "CAFFEINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "calcium_gluconate",
+    "name": "CALCIUM GLUCONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "calcium_stearate",
+    "name": "CALCIUM STEARATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "calendula_officinalis_flower_extract",
+    "name": "CALENDULA OFFICINALIS FLOWER EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "camellia_japonica_seed_oil",
+    "name": "CAMELLIA JAPONICA SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "camellia_sinensis_leaf_extract",
+    "name": "CAMELLIA SINENSIS LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "canola_oil",
+    "name": "CANOLA OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "caprylhydroxamic_acid",
+    "name": "CAPRYLHYDROXAMIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "caprylic_capric_triglyceride",
+    "name": "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "caprylyl_glycol",
+    "name": "CAPRYLYL GLYCOL",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "carbomer",
+    "name": "CARBOMER",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "carnitine",
+    "name": "CARNITINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "carrageenan",
+    "name": "CARRAGEENAN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "carthamus_tinctorius_flower_extract",
+    "name": "CARTHAMUS TINCTORIUS FLOWER EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "carthamus_tinctorius_seed_oil",
+    "name": "CARTHAMUS TINCTORIUS SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "cera_alba",
+    "name": "CERA ALBA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cera_microcristallina",
+    "name": "CERA MICROCRISTALLINA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ceramide_np",
+    "name": "CERAMIDE NP",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ceteareth_20",
+    "name": "CETEARETH-20",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ceteareth_33",
+    "name": "CETEARETH-33",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cetearyl_alcohol",
+    "name": "CETEARYL ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cetearyl_glucoside",
+    "name": "CETEARYL GLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "cetrimonium_chloride",
+    "name": "CETRIMONIUM CHLORIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cetyl_alcohol",
+    "name": "CETYL ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cetyl_esters",
+    "name": "CETYL ESTERS",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cetyl_peg_ppg_10_1_dimethicone",
+    "name": "CETYL PEG/PPG-10/1 DIMETHICONE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "cetyl_phosphate",
+    "name": "CETYL PHOSPHATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "chamomilla_recutita_flower_extract",
+    "name": "CHAMOMILLA RECUTITA FLOWER EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "chlorhexidine_digluconate",
+    "name": "CHLORHEXIDINE DIGLUCONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "chlorphenesin",
+    "name": "CHLORPHENESIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_14700",
+    "name": "CI 14700",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_15850",
+    "name": "CI 15850",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_15985",
+    "name": "CI 15985",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_16035",
+    "name": "CI 16035",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_16255",
+    "name": "CI 16255",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_17200",
+    "name": "CI 17200",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_191140",
+    "name": "CI 191140",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_19140",
+    "name": "CI 19140",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_40800",
+    "name": "CI 40800",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_42051",
+    "name": "CI 42051",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_42090",
+    "name": "CI 42090",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_47005",
+    "name": "CI 47005",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_60730",
+    "name": "CI 60730",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_73360",
+    "name": "CI 73360",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_75120",
+    "name": "CI 75120",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_77007",
+    "name": "CI 77007",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_77491",
+    "name": "CI 77491",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_77492",
+    "name": "CI 77492",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_77499",
+    "name": "CI 77499",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_77742",
+    "name": "CI 77742",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ci_77891",
+    "name": "CI 77891",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cinnamal",
+    "name": "CINNAMAL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cinnamyl_alcohol",
+    "name": "CINNAMYL ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "citral",
+    "name": "CITRAL",
+    "description": "",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "category": "Fragrance",
+    "allergen": true,
+    "euAllergen": true
+  },
+  {
+    "id": "citric_acid",
+    "name": "CITRIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "citronellol",
+    "name": "CITRONELLOL",
+    "description": "",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "category": "Fragrance",
+    "allergen": true,
+    "euAllergen": true
+  },
+  {
+    "id": "citrulline",
+    "name": "CITRULLINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "citrus_aurantifolia_seed_oil",
+    "name": "CITRUS AURANTIFOLIA SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "citrus_aurantium_dulcis_oil",
+    "name": "CITRUS AURANTIUM DULCIS OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "citrus_grandis_peel_oil",
+    "name": "CITRUS GRANDIS PEEL OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "citrus_limon_fruit_extract",
+    "name": "CITRUS LIMON FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "citrus_paradisi_fruit_extract",
+    "name": "CITRUS PARADISI FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "cocamide_mea",
+    "name": "COCAMIDE MEA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cocamidoethyl_betaine",
+    "name": "COCAMIDOETHYL BETAINE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "cocamidopropyl_betaine",
+    "name": "COCAMIDOPROPYL BETAINE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "coco_caprylate_caprate",
+    "name": "COCO-CAPRYLATE/CAPRATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "coco_glucoside",
+    "name": "COCO-GLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "cocoglycerides",
+    "name": "COCOGLYCERIDES",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "coconut_acid",
+    "name": "COCONUT ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "coconut_alcohol",
+    "name": "COCONUT ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "cocos_nucifera_fruit_extract",
+    "name": "COCOS NUCIFERA FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "cocos_nucifera_oil",
+    "name": "COCOS NUCIFERA OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "collagen_amino_acids",
+    "name": "COLLAGEN AMINO ACIDS",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "corn_starch_modified",
+    "name": "CORN STARCH MODIFIED",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "coumarin",
+    "name": "COUMARIN",
+    "description": "",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "category": "Fragrance",
+    "allergen": true,
+    "euAllergen": true
+  },
+  {
+    "id": "creatine",
+    "name": "CREATINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "curcuma_longa_leaf_extract",
+    "name": "CURCUMA LONGA LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "cyclopentasiloxane",
+    "name": "CYCLOPENTASILOXANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "decyl_cocoate",
+    "name": "DECYL COCOATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "decyl_glucoside",
+    "name": "DECYL GLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "decyl_oleate",
+    "name": "DECYL OLEATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dehydroacetic_acid",
+    "name": "DEHYDROACETIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "dextrin",
+    "name": "DEXTRIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dextrin_palmitate",
+    "name": "DEXTRIN PALMITATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dicalcium_phosphate",
+    "name": "DICALCIUM PHOSPHATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dicaprylyl_carbonate",
+    "name": "DICAPRYLYL CARBONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dicaprylyl_ether",
+    "name": "DICAPRYLYL ETHER",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "diethylamino_hydroxybenzoyl_hexyl_benzoate",
+    "name": "DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "diisopropyl_adipate",
+    "name": "DIISOPROPYL ADIPATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "diisopropyl_sebacate",
+    "name": "DIISOPROPYL SEBACATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "diisostearyl_malate",
+    "name": "DIISOSTEARYL MALATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dimethicone",
+    "name": "DIMETHICONE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "dimethicone_vinyl_dimethicone_crosspolymer",
+    "name": "DIMETHICONE/VINYL DIMETHICONE CROSSPOLYMER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "dimethiconol",
+    "name": "DIMETHICONOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dipotassium_glycyrrhizate",
+    "name": "DIPOTASSIUM GLYCYRRHIZATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dipropylene_glycol",
+    "name": "DIPROPYLENE GLYCOL",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "disiloxane",
+    "name": "DISILOXANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "disodium_cocoamphodiacetate",
+    "name": "DISODIUM COCOAMPHODIACETATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "disodium_cocoyl_glutamate",
+    "name": "DISODIUM COCOYL GLUTAMATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "disodium_edta",
+    "name": "DISODIUM EDTA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "disodium_lauryl_sulfosuccinate",
+    "name": "DISODIUM LAURYL SULFOSUCCINATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "disteardimonium_hectorite",
+    "name": "DISTEARDIMONIUM HECTORITE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "distearoylethyl_hydroxyethylmonium_methosulfate",
+    "name": "DISTEAROYLETHYL HYDROXYETHYLMONIUM METHOSULFATE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "ditallowdimonium_chloride",
+    "name": "DITALLOWDIMONIUM CHLORIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "dmdm_hydantoin",
+    "name": "DMDM HYDANTOIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "eau",
+    "name": "EAU",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ectoin",
+    "name": "ECTOIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethanolamine",
+    "name": "ETHANOLAMINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethyl_acetate",
+    "name": "ETHYL ACETATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethyl_trisiloxane",
+    "name": "ETHYL TRISILOXANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethylene_propylene_copolymer",
+    "name": "ETHYLENE/PROPYLENE COPOLYMER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "ethylhexyl_methoxycinnamate",
+    "name": "ETHYLHEXYL METHOXYCINNAMATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethylhexyl_palmitate",
+    "name": "ETHYLHEXYL PALMITATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethylhexyl_salicylate",
+    "name": "ETHYLHEXYL SALICYLATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethylhexyl_stearate",
+    "name": "ETHYLHEXYL STEARATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethylhexyl_triazone",
+    "name": "ETHYLHEXYL TRIAZONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ethylhexylglycerin",
+    "name": "ETHYLHEXYLGLYCERIN",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "ethylparaben",
+    "name": "ETHYLPARABEN",
+    "description": "",
+    "functions": [
+      "Preservative"
+    ],
+    "safetyProfile": "danger",
+    "category": "Preservative",
+    "allergen": true
+  },
+  {
+    "id": "etidronic_acid",
+    "name": "ETIDRONIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "eucheuma_serra_grateloupia_sparsa_saccharina_angustata_ulva_linza_undaria_pinnatifida_extract",
+    "name": "EUCHEUMA SERRA/GRATELOUPIA SPARSA/SACCHARINA ANGUSTATA/ULVA LINZA/UNDARIA PINNATIFIDA EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "eugenol",
+    "name": "EUGENOL",
+    "description": "",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "category": "Fragrance",
+    "allergen": true,
+    "euAllergen": true
+  },
+  {
+    "id": "euphorbia_cerifera_cera",
+    "name": "EUPHORBIA CERIFERA CERA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "fructose",
+    "name": "FRUCTOSE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "geraniol",
+    "name": "GERANIOL",
+    "description": "",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "category": "Fragrance",
+    "allergen": true,
+    "euAllergen": true
+  },
+  {
+    "id": "gluconolactone",
+    "name": "GLUCONOLACTONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glucose",
+    "name": "GLUCOSE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glutamic_acid",
+    "name": "GLUTAMIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "glycereth_26",
+    "name": "GLYCERETH-26",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glycerin",
+    "name": "GLYCERIN",
+    "description": "A natural humectant that draws moisture to the skin.",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "glyceryl_acrylate_acrylic_acid_copolymer",
+    "name": "GLYCERYL ACRYLATE/ACRYLIC ACID COPOLYMER",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "glyceryl_behenate",
+    "name": "GLYCERYL BEHENATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glyceryl_glucoside",
+    "name": "GLYCERYL GLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "glyceryl_oleate",
+    "name": "GLYCERYL OLEATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glyceryl_stearate",
+    "name": "GLYCERYL STEARATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glyceryl_stearate_citrate",
+    "name": "GLYCERYL STEARATE CITRATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glycine_soja_oil",
+    "name": "GLYCINE SOJA OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "glycogen",
+    "name": "GLYCOGEN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "glycol_distearate",
+    "name": "GLYCOL DISTEARATE",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "glycyrrhiza_inflata_root_extract",
+    "name": "GLYCYRRHIZA INFLATA ROOT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "guar_hydroxypropyltrimonium_chloride",
+    "name": "GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hamamelis_virginiana_leaf_extract",
+    "name": "HAMAMELIS VIRGINIANA LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "hc_blue_no._16",
+    "name": "HC BLUE NO. 16",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "helianthus_annuus_sunflower_seed_oil",
+    "name": "HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "helianthus_annuus_extract",
+    "name": "HELIANTHUS ANNUUS EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "helianthus_annuus_hybrid_oil",
+    "name": "HELIANTHUS ANNUUS HYBRID OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "helianthus_annuus_seed_extract",
+    "name": "HELIANTHUS ANNUUS SEED EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "helianthus_annuus_seed_oil",
+    "name": "HELIANTHUS ANNUUS SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "helianthus_annuus_seed_wax",
+    "name": "HELIANTHUS ANNUUS SEED WAX",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "helianthus_annuus_sprout_extract",
+    "name": "HELIANTHUS ANNUUS SPROUT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "hexyl_cinnamal",
+    "name": "HEXYL CINNAMAL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hexyl_laurate",
+    "name": "HEXYL LAURATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hexyl_nicotinate",
+    "name": "HEXYL NICOTINATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hexylene_glycol",
+    "name": "HEXYLENE GLYCOL",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "histidine_hcl",
+    "name": "HISTIDINE HCL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hordeum_vulgare_seed_extract",
+    "name": "HORDEUM VULGARE SEED EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "hyaluronic_acid",
+    "name": "HYALURONIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "hydrated_silica",
+    "name": "HYDRATED SILICA",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "hydrogen_dimethicone",
+    "name": "HYDROGEN DIMETHICONE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "hydrogenated_castor_oil",
+    "name": "HYDROGENATED CASTOR OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "hydrogenated_coco_glycerides",
+    "name": "HYDROGENATED COCO-GLYCERIDES",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydrogenated_lecithin",
+    "name": "HYDROGENATED LECITHIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydrogenated_palm_glycerides_citrate",
+    "name": "HYDROGENATED PALM GLYCERIDES CITRATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydrogenated_polydecene",
+    "name": "HYDROGENATED POLYDECENE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "hydrogenated_polyisobutene",
+    "name": "HYDROGENATED POLYISOBUTENE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "hydrogenated_rapeseed_oil",
+    "name": "HYDROGENATED RAPESEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "hydrogenated_vegetable_oil",
+    "name": "HYDROGENATED VEGETABLE OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "hydrolyzed_corn_protein",
+    "name": "HYDROLYZED CORN PROTEIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydrolyzed_quinoa",
+    "name": "HYDROLYZED QUINOA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydrolyzed_sodium_hyaluronate",
+    "name": "HYDROLYZED SODIUM HYALURONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydrolyzed_soy_protein",
+    "name": "HYDROLYZED SOY PROTEIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydrolyzed_wheat_protein",
+    "name": "HYDROLYZED WHEAT PROTEIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydroxyacetophenone",
+    "name": "HYDROXYACETOPHENONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydroxycitronellal",
+    "name": "HYDROXYCITRONELLAL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydroxyethyl_acrylate_sodium_acryloyldimethyl_taurate_copolymer",
+    "name": "HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "hydroxyethylcellulose",
+    "name": "HYDROXYETHYLCELLULOSE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydroxyethylpiperazine_ethane_sulfonic_acid",
+    "name": "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "hydroxypalmitoyl_sphinganine",
+    "name": "HYDROXYPALMITOYL SPHINGANINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydroxypropyl_guar_hydroxypropyltrimonium_chloride",
+    "name": "HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "hydroxystearic_linolenic_oleic_polyglycerides",
+    "name": "HYDROXYSTEARIC/LINOLENIC/OLEIC POLYGLYCERIDES",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "illicium_verum_fruit_extract",
+    "name": "ILLICIUM VERUM FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "illite",
+    "name": "ILLITE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "inulin",
+    "name": "INULIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "iron_oxides",
+    "name": "IRON OXIDES",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isoamyl_p_methoxycinnamate",
+    "name": "ISOAMYL P-METHOXYCINNAMATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isobutane",
+    "name": "ISOBUTANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isododecane",
+    "name": "ISODODECANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isohexadecane",
+    "name": "ISOHEXADECANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isopropyl_alcohol",
+    "name": "ISOPROPYL ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isopropyl_myristate",
+    "name": "ISOPROPYL MYRISTATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isopropyl_palmitate",
+    "name": "ISOPROPYL PALMITATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isopropyl_stearate",
+    "name": "ISOPROPYL STEARATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "isostearic_acid",
+    "name": "ISOSTEARIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "jojoba_esters",
+    "name": "JOJOBA ESTERS",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "kaolin",
+    "name": "KAOLIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "lactic_acid",
+    "name": "LACTIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "lanolin",
+    "name": "LANOLIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "laureth_23",
+    "name": "LAURETH-23",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "laureth_4",
+    "name": "LAURETH-4",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "lauryl_glucoside",
+    "name": "LAURYL GLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "danger",
+    "category": "Surfactant"
+  },
+  {
+    "id": "lauryl_peg_9_polydimethylsiloxyethyl_dimethicone",
+    "name": "LAURYL PEG-9 POLYDIMETHYLSILOXYETHYL DIMETHICONE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "lavandula_angustifolia_flower_extract",
+    "name": "LAVANDULA ANGUSTIFOLIA FLOWER EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "lecithin",
+    "name": "LECITHIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "leontopodium_alpinum_extract",
+    "name": "LEONTOPODIUM ALPINUM EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "leuconostoc_radish_root_ferment_filtrate",
+    "name": "LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "levulinic_acid",
+    "name": "LEVULINIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "limnanthes_alba_seed_oil",
+    "name": "LIMNANTHES ALBA SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "limonene",
+    "name": "LIMONENE",
+    "description": "",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "category": "Fragrance",
+    "allergen": true,
+    "euAllergen": true
+  },
+  {
+    "id": "linalool",
+    "name": "LINALOOL",
+    "description": "",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "category": "Fragrance",
+    "allergen": true,
+    "euAllergen": true
+  },
+  {
+    "id": "litchi_chinensis_fruit_extract",
+    "name": "LITCHI CHINENSIS FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "litsea_cubeba_fruit_oil",
+    "name": "LITSEA CUBEBA FRUIT OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "lysine_hcl",
+    "name": "LYSINE HCL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "magnesium_stearate",
+    "name": "MAGNESIUM STEARATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "maltodextrin",
+    "name": "MALTODEXTRIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "malus_domestica_fruit_water",
+    "name": "MALUS DOMESTICA FRUIT WATER",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "mannitol",
+    "name": "MANNITOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "maris_sal",
+    "name": "MARIS SAL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "mauritia_flexuosa_fruit_oil",
+    "name": "MAURITIA FLEXUOSA FRUIT OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "melissa_officinalis_leaf_extract",
+    "name": "MELISSA OFFICINALIS LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "mentha_piperita_oil",
+    "name": "MENTHA PIPERITA OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "methyl_perfluorobutyl_ether",
+    "name": "METHYL PERFLUOROBUTYL ETHER",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "methyl_perfluoroisobutyl_ether",
+    "name": "METHYL PERFLUOROISOBUTYL ETHER",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "methyl_trimethicone",
+    "name": "METHYL TRIMETHICONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "methylene_bis_benzotriazolyl_tetramethylbutylphenol",
+    "name": "METHYLENE BIS-BENZOTRIAZOLYL TETRAMETHYLBUTYLPHENOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "methylparaben",
+    "name": "METHYLPARABEN",
+    "description": "",
+    "functions": [
+      "Preservative"
+    ],
+    "safetyProfile": "danger",
+    "category": "Preservative",
+    "allergen": true
+  },
+  {
+    "id": "methylpropanediol",
+    "name": "METHYLPROPANEDIOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "mica",
+    "name": "MICA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "micrococcus_lysate",
+    "name": "MICROCOCCUS LYSATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "microcrystalline_wax",
+    "name": "MICROCRYSTALLINE WAX",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "mineral_oil",
+    "name": "MINERAL OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "montmorillonite",
+    "name": "MONTMORILLONITE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "morinda_citrifolia_fruit_extract",
+    "name": "MORINDA CITRIFOLIA FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "myristic_acid",
+    "name": "MYRISTIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "myristyl_alcohol",
+    "name": "MYRISTYL ALCOHOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "myristyl_glucoside",
+    "name": "MYRISTYL GLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "myristyl_myristate",
+    "name": "MYRISTYL MYRISTATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "nannochloropsis_oculata_extract",
+    "name": "NANNOCHLOROPSIS OCULATA EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "niacinamide",
+    "name": "NIACINAMIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "octocrylene",
+    "name": "OCTOCRYLENE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "octyldodecanol",
+    "name": "OCTYLDODECANOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "octyldodecyl_neopentanoate",
+    "name": "OCTYLDODECYL NEOPENTANOATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "olea_europaea_fruit",
+    "name": "OLEA EUROPAEA FRUIT",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "olea_europaea_fruit_oil",
+    "name": "OLEA EUROPAEA FRUIT OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "oleyl_erucate",
+    "name": "OLEYL ERUCATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "olive_fruit_oil",
+    "name": "OLIVE FRUIT OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "olive_oil_peg_7_esters",
+    "name": "OLIVE OIL PEG-7 ESTERS",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "oryza_sativa_bran_extract",
+    "name": "ORYZA SATIVA BRAN EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "oryza_sativa_bran_oil",
+    "name": "ORYZA SATIVA BRAN OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "oryza_sativa_seed_protein",
+    "name": "ORYZA SATIVA SEED PROTEIN",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "ozokerite",
+    "name": "OZOKERITE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "palmitic_acid",
+    "name": "PALMITIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "panthenol",
+    "name": "PANTHENOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "pantolactone",
+    "name": "PANTOLACTONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "paraffin",
+    "name": "PARAFFIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "paraffinum_liquidum",
+    "name": "PARAFFINUM LIQUIDUM",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "parfum",
+    "name": "PARFUM",
+    "description": "Fragrance mixture. Common allergen.",
+    "functions": [
+      "Perfuming"
+    ],
+    "safetyProfile": "caution",
+    "allergen": true,
+    "euAllergen": true,
+    "category": "Fragrance"
+  },
+  {
+    "id": "pca",
+    "name": "PCA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "pca_glyceryl_oleate",
+    "name": "PCA GLYCERYL OLEATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "pectin",
+    "name": "PECTIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "peg_100_stearate",
+    "name": "PEG-100 STEARATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "peg_20_glyceryl_triisostearate",
+    "name": "PEG-20 GLYCERYL TRIISOSTEARATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "peg_40_hydrogenated_castor_oil",
+    "name": "PEG-40 HYDROGENATED CASTOR OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "peg_6",
+    "name": "PEG-6",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "peg_7_glyceryl_cocoate",
+    "name": "PEG-7 GLYCERYL COCOATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "peg_ppg_14_7_dimethyl_ether",
+    "name": "PEG/PPG-14/7 DIMETHYL ETHER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "peg_ppg_9_2_dimethyl_ether",
+    "name": "PEG/PPG-9/2 DIMETHYL ETHER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "pentaerythrityl_tetra_di_t_butyl_hydroxyhydrocinnamate",
+    "name": "PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "pentylene_glycol",
+    "name": "PENTYLENE GLYCOL",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "persea_gratissima_oil",
+    "name": "PERSEA GRATISSIMA OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "petrolatum",
+    "name": "PETROLATUM",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "phenoxyethanol",
+    "name": "PHENOXYETHANOL",
+    "description": "A widely used preservative. May cause irritation.",
+    "functions": [
+      "Preservative"
+    ],
+    "safetyProfile": "caution",
+    "allergen": true,
+    "category": "Preservative"
+  },
+  {
+    "id": "phenyl_trimethicone",
+    "name": "PHENYL TRIMETHICONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "phenylbenzimidazole_sulfonic_acid",
+    "name": "PHENYLBENZIMIDAZOLE SULFONIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "phytic_acid",
+    "name": "PHYTIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "phytosterols",
+    "name": "PHYTOSTEROLS",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "poloxamer_188",
+    "name": "POLOXAMER 188",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "polybutene",
+    "name": "POLYBUTENE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyester_1",
+    "name": "POLYESTER-1",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyethylene",
+    "name": "POLYETHYLENE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyglycerin_3",
+    "name": "POLYGLYCERIN-3",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "polyglyceryl_10_pentastearate",
+    "name": "POLYGLYCERYL-10 PENTASTEARATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyglyceryl_10_stearate",
+    "name": "POLYGLYCERYL-10 STEARATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyglyceryl_4_diisostearate_polyhydroxystearate_sebacate",
+    "name": "POLYGLYCERYL-4 DIISOSTEARATE/POLYHYDROXYSTEARATE/SEBACATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyglyceryl_4_isostearate",
+    "name": "POLYGLYCERYL-4 ISOSTEARATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyglyceryl_4_laurate",
+    "name": "POLYGLYCERYL-4 LAURATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyglyceryl_6_polyricinoleate",
+    "name": "POLYGLYCERYL-6 POLYRICINOLEATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyhydroxystearic_acid",
+    "name": "POLYHYDROXYSTEARIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "polyisobutene",
+    "name": "POLYISOBUTENE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyquaternium_113",
+    "name": "POLYQUATERNIUM-113",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyquaternium_37",
+    "name": "POLYQUATERNIUM-37",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyquaternium_6",
+    "name": "POLYQUATERNIUM-6",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polyquaternium_7",
+    "name": "POLYQUATERNIUM-7",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polysorbate_20",
+    "name": "POLYSORBATE 20",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polysorbate_60",
+    "name": "POLYSORBATE 60",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "polysorbate_80",
+    "name": "POLYSORBATE 80",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "potassium_cetyl_phosphate",
+    "name": "POTASSIUM CETYL PHOSPHATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "potassium_hydroxide",
+    "name": "POTASSIUM HYDROXIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "potassium_sorbate",
+    "name": "POTASSIUM SORBATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "propanediol",
+    "name": "PROPANEDIOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "propanediol_dicaprylate_caprate",
+    "name": "PROPANEDIOL DICAPRYLATE/CAPRATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "propylene_carbonate",
+    "name": "PROPYLENE CARBONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "propylene_glycol",
+    "name": "PROPYLENE GLYCOL",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "propylparaben",
+    "name": "PROPYLPARABEN",
+    "description": "",
+    "functions": [
+      "Preservative"
+    ],
+    "safetyProfile": "danger",
+    "category": "Preservative",
+    "allergen": true
+  },
+  {
+    "id": "prunus_amygdalus_dulcis_oil",
+    "name": "PRUNUS AMYGDALUS DULCIS OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "prunus_amygdalus_dulcis_protein",
+    "name": "PRUNUS AMYGDALUS DULCIS PROTEIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "prunus_armeniaca_kernel_oil",
+    "name": "PRUNUS ARMENIACA KERNEL OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "prunus_avium_fruit_extract",
+    "name": "PRUNUS AVIUM FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "prunus_cerasus_shell_powder",
+    "name": "PRUNUS CERASUS SHELL POWDER",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "prunus_insititia_seed_oil",
+    "name": "PRUNUS INSITITIA SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "pullulan",
+    "name": "PULLULAN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "punica_granatum_seed_oil",
+    "name": "PUNICA GRANATUM SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "quaternium_95",
+    "name": "QUATERNIUM-95",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "retinyl_palmitate",
+    "name": "RETINYL PALMITATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ricinus_communis_seed_oil",
+    "name": "RICINUS COMMUNIS SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "rosmarinus_officinalis_leaf_extrac",
+    "name": "ROSMARINUS OFFICINALIS LEAF EXTRAC",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "rosmarinus_officinalis_leaf_extract",
+    "name": "ROSMARINUS OFFICINALIS LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "rubus_idaeus_fruit_extract",
+    "name": "RUBUS IDAEUS FRUIT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "saccharina_angustata_undaria_pinnatifida_extract",
+    "name": "SACCHARINA ANGUSTATA/UNDARIA PINNATIFIDA EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "saccharomyces_ferment_lysate_filtrate",
+    "name": "SACCHAROMYCES FERMENT LYSATE FILTRATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "salicylic_acid",
+    "name": "SALICYLIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "caution",
+    "category": "Acid"
+  },
+  {
+    "id": "sarcosine",
+    "name": "SARCOSINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "saxifraga_sarmentosa_extract",
+    "name": "SAXIFRAGA SARMENTOSA EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "sclerotium_gum",
+    "name": "SCLEROTIUM GUM",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "serine",
+    "name": "SERINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sesamum_indicum_seed_oil",
+    "name": "SESAMUM INDICUM SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "silica",
+    "name": "SILICA",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "silica_dimethyl_silylate",
+    "name": "SILICA DIMETHYL SILYLATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "simmondsia_chinensis_jojoba_seed_oil",
+    "name": "SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "simmondsia_chinensis_seed_oil",
+    "name": "SIMMONDSIA CHINENSIS SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "sodium_anisate",
+    "name": "SODIUM ANISATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_benzoate",
+    "name": "SODIUM BENZOATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_bicarbonate",
+    "name": "SODIUM BICARBONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_carboxymethyl_betaglucan",
+    "name": "SODIUM CARBOXYMETHYL BETAGLUCAN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_cetearyl_sulfate",
+    "name": "SODIUM CETEARYL SULFATE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "sodium_chloride",
+    "name": "SODIUM CHLORIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_chloridehc",
+    "name": "SODIUM CHLORIDEHC",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_citrate",
+    "name": "SODIUM CITRATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_coco_sulfate",
+    "name": "SODIUM COCO-SULFATE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "sodium_cocoate",
+    "name": "SODIUM COCOATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_cocoyl_isethionate",
+    "name": "SODIUM COCOYL ISETHIONATE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "sodium_cocoyl_methyl_isethionate",
+    "name": "SODIUM COCOYL METHYL ISETHIONATE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "sodium_dehydroacetate",
+    "name": "SODIUM DEHYDROACETATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_gluconate",
+    "name": "SODIUM GLUCONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_hyaluronate",
+    "name": "SODIUM HYALURONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_hydroxide",
+    "name": "SODIUM HYDROXIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_lactate",
+    "name": "SODIUM LACTATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_laneth_40_maleate_styrene_sulfonate_copolymer",
+    "name": "SODIUM LANETH-40 MALEATE/STYRENE SULFONATE COPOLYMER",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "sodium_laureth_sulfate",
+    "name": "SODIUM LAURETH SULFATE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "sodium_lauriminodipropionate",
+    "name": "SODIUM LAURIMINODIPROPIONATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_lauroyl_glutamate",
+    "name": "SODIUM LAUROYL GLUTAMATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_lauroyl_oat_amino_acids",
+    "name": "SODIUM LAUROYL OAT AMINO ACIDS",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "sodium_lauroyl_sarcosinate",
+    "name": "SODIUM LAUROYL SARCOSINATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_lauryl_sulfoacetate",
+    "name": "SODIUM LAURYL SULFOACETATE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "danger",
+    "category": "Surfactant"
+  },
+  {
+    "id": "sodium_levulinate",
+    "name": "SODIUM LEVULINATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_metabisulfite",
+    "name": "SODIUM METABISULFITE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_methyl_oleoyl_taurate",
+    "name": "SODIUM METHYL OLEOYL TAURATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_pca",
+    "name": "SODIUM PCA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_phytate",
+    "name": "SODIUM PHYTATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_polyacrylate",
+    "name": "SODIUM POLYACRYLATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "sodium_salicylate",
+    "name": "SODIUM SALICYLATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_stearoyl_glutamate",
+    "name": "SODIUM STEAROYL GLUTAMATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sodium_stearoyl_lactylate",
+    "name": "SODIUM STEAROYL LACTYLATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sophora_angustifolia_root_extract",
+    "name": "SOPHORA ANGUSTIFOLIA ROOT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "sorbic_acid",
+    "name": "SORBIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "caution",
+    "category": "Acid"
+  },
+  {
+    "id": "sorbitan_isostearate",
+    "name": "SORBITAN ISOSTEARATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sorbitan_oleate",
+    "name": "SORBITAN OLEATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sorbitan_tristearate",
+    "name": "SORBITAN TRISTEARATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sorbitol",
+    "name": "SORBITOL",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "squalane",
+    "name": "SQUALANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "stearamidopropyl_dimethylamine",
+    "name": "STEARAMIDOPROPYL DIMETHYLAMINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "stearamidopropyl_myristate",
+    "name": "STEARAMIDOPROPYL MYRISTATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "stearic_acid",
+    "name": "STEARIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "sucrose",
+    "name": "SUCROSE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sucrose_tetrastearate_triacetate",
+    "name": "SUCROSE TETRASTEARATE TRIACETATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "sunflower_seed_oil",
+    "name": "SUNFLOWER SEED OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "synthetic_beeswax",
+    "name": "SYNTHETIC BEESWAX",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "synthetic_fluorphlogopite",
+    "name": "SYNTHETIC FLUORPHLOGOPITE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "synthetic_wax",
+    "name": "SYNTHETIC WAX",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "syzygium_jambos_leaf_extract",
+    "name": "SYZYGIUM JAMBOS LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "talc",
+    "name": "TALC",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "tapioca_starch",
+    "name": "TAPIOCA STARCH",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "tartaric_acid",
+    "name": "TARTARIC ACID",
+    "description": "",
+    "functions": [
+      "pH Adjuster"
+    ],
+    "safetyProfile": "safe",
+    "category": "Acid"
+  },
+  {
+    "id": "theobroma_cacao_seed_butter",
+    "name": "THEOBROMA CACAO SEED BUTTER",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "threonine",
+    "name": "THREONINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "thymus_vulgaris_leaf_extract",
+    "name": "THYMUS VULGARIS LEAF EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "thymus_vulgaris_oil",
+    "name": "THYMUS VULGARIS OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "titanium_dioxide",
+    "name": "TITANIUM DIOXIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "tocopherol",
+    "name": "TOCOPHEROL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "tocopheryl_acetate",
+    "name": "TOCOPHERYL ACETATE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "trehalose",
+    "name": "TREHALOSE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "tribehenin",
+    "name": "TRIBEHENIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "triethanolamine",
+    "name": "TRIETHANOLAMINE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "triethoxycaprylylsilane",
+    "name": "TRIETHOXYCAPRYLYLSILANE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "triethylhexanoin",
+    "name": "TRIETHYLHEXANOIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "triheptanoin",
+    "name": "TRIHEPTANOIN",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "trimethylsiloxysilicate",
+    "name": "TRIMETHYLSILOXYSILICATE",
+    "description": "",
+    "functions": [
+      "Emulsifier",
+      "Viscosity controlling"
+    ],
+    "safetyProfile": "safe",
+    "category": "Polymer"
+  },
+  {
+    "id": "trisodium_edta",
+    "name": "TRISODIUM EDTA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "triticum_vulgare_germ_oil",
+    "name": "TRITICUM VULGARE GERM OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "triticum_vulgare_starch",
+    "name": "TRITICUM VULGARE STARCH",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "ubiquinone",
+    "name": "UBIQUINONE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "urea",
+    "name": "UREA",
+    "description": "",
+    "functions": [
+      "Humectant"
+    ],
+    "safetyProfile": "safe",
+    "category": "Humectant"
+  },
+  {
+    "id": "vitreoscilla_ferment",
+    "name": "VITREOSCILLA FERMENT",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "water",
+    "name": "WATER",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "xanthan_gum",
+    "name": "XANTHAN GUM",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "xylitol",
+    "name": "XYLITOL",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "xylitylglucoside",
+    "name": "XYLITYLGLUCOSIDE",
+    "description": "",
+    "functions": [
+      "Cleansing"
+    ],
+    "safetyProfile": "safe",
+    "category": "Surfactant"
+  },
+  {
+    "id": "zea_mays_oil",
+    "name": "ZEA MAYS OIL",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  },
+  {
+    "id": "zinc_chloride",
+    "name": "ZINC CHLORIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "zinc_oxide",
+    "name": "ZINC OXIDE",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "zinc_pca",
+    "name": "ZINC PCA",
+    "description": "",
+    "functions": [],
+    "safetyProfile": "safe",
+    "category": "Other"
+  },
+  {
+    "id": "zingiber_officinale_root_extract",
+    "name": "ZINGIBER OFFICINALE ROOT EXTRACT",
+    "description": "",
+    "functions": [
+      "Skin conditioning"
+    ],
+    "safetyProfile": "safe",
+    "category": "Botanical"
+  }
+]

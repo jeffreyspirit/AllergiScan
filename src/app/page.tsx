@@ -18,10 +18,13 @@ import { useState, useEffect } from "react";
 import { inciDatabase } from "@/lib/inci";
 
 export default function Home() {
+  const euAllergenCount = inciDatabase.filter(ing => ing.euAllergen).length;
+  const highRiskCount = inciDatabase.filter(ing => ing.safetyProfile === "danger").length;
+
   const [stats, setStats] = useState([
     { label: "INCI Entries", value: inciDatabase.length.toString(), icon: FlaskConical, color: "text-teal-600 bg-teal-50" },
-    { label: "EU Allergens",  value: "26",  icon: AlertTriangle, color: "text-amber-500 bg-amber-50"   },
-    { label: "Banned/Risk",   value: "12",  icon: ShieldAlert,   color: "text-red-500 bg-red-50"          },
+    { label: "EU Allergens",  value: euAllergenCount.toString(),  icon: AlertTriangle, color: "text-amber-500 bg-amber-50"   },
+    { label: "Banned/Risk",   value: highRiskCount.toString(),  icon: ShieldAlert,   color: "text-red-500 bg-red-50"          },
   ]);
 
   const [recentScans, setRecentScans] = useState<any[]>([]);
