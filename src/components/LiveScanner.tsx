@@ -33,20 +33,34 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
   const [lastIngredients, setLastIngredients] = useState<Ingredient[]>([]);
   const [selectedLang, setSelectedLang] = useState<"auto" | "tha" | "chi_sim" | "eng">("auto");
   const [fps, setFps] = useState(0);
+  const [isWorkerReady, setIsWorkerReady] = useState(false);
   const fpsRef = useRef({ frames: 0, last: Date.now() });
 
   // Initialise Tesseract worker
   const initWorker = useCallback(async (lang: string) => {
+    setIsWorkerReady(false);
     if (workerRef.current) {
       await workerRef.current.terminate();
       workerRef.current = null;
     }
     const Tesseract = (await import("tesseract.js")).default;
     const worker = await Tesseract.createWorker(lang, 1, {
-      // suppress verbose logs
-      logger: () => {},
+      logger: (m) => {
+        if (m.status === "recognizing text") {
+          // Can track progress if needed
+        }
+      },
     });
+
+    // Set parameters for speed
+    await worker.setParameters({
+      tessedit_pageseg_mode: "3" as any, // Fully automatic page segmentation, but no OSD
+      tessjs_create_hocr: "0",
+      tessjs_create_tsv: "0",
+    });
+
     workerRef.current = worker;
+    setIsWorkerReady(true);
   }, []);
 
   const getLangCode = useCallback(() => {
@@ -71,10 +85,7 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
       // Init worker
       await initWorker(getLangCode());
 
-      // Start scanning loop
-      intervalRef.current = setInterval(() => {
-        captureAndScan();
-      }, 2500); // scan every 2.5 s
+      // Start scanning loop immediately after worker is ready
     } catch {
       setStatus("error");
     }
@@ -96,38 +107,58 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
   }, []);
 
   const captureAndScan = useCallback(async () => {
-    if (isProcessingRef.current || !workerRef.current || !videoRef.current || !canvasRef.current) return;
+    if (isProcessingRef.current || !workerRef.current || !videoRef.current || !canvasRef.current || !isWorkerReady) return;
     if (!videoRef.current.videoWidth) return;
 
     isProcessingRef.current = true;
 
     const video = videoRef.current;
     const canvas = canvasRef.current;
-    canvas.width = video.videoWidth;
-    canvas.height = video.videoHeight;
+    
+    // Scan only a focused center area to increase speed and accuracy
+    const scale = 0.8;
+    const sw = video.videoWidth * scale;
+    const sh = video.videoHeight * scale;
+    const sx = (video.videoWidth - sw) / 2;
+    const sy = (video.videoHeight - sh) / 2;
+
+    canvas.width = sw;
+    canvas.height = sh;
+    
     const ctx = canvas.getContext("2d");
     if (!ctx) { isProcessingRef.current = false; return; }
 
-    ctx.drawImage(video, 0, 0);
-    const imageData = canvas.toDataURL("image/jpeg", 0.8);
+    // Draw and apply simple preprocessing (grayscale + contrast)
+    ctx.filter = "grayscale(100%) contrast(150%) brightness(110%)";
+    ctx.drawImage(video, sx, sy, sw, sh, 0, 0, sw, sh);
+    
+    const imageData = canvas.toDataURL("image/jpeg", 0.7);
 
     try {
       const { data } = await workerRef.current.recognize(imageData);
       const text = data.text.trim();
 
-      if (text.length > 10) {
+      if (text.length > 5) {
         const found = analyzeIngredients(text);
         if (found.length > 0) {
           setLastIngredients(found);
           setStatus("detected");
           onResult(found, text);
           setScanCount((c) => c + 1);
+          
+          // Flash detected status for a bit then go back to scanning
+          setTimeout(() => setStatus("scanning"), 1000);
         }
       }
-    } catch {
-      // silently continue
+    } catch (err) {
+      console.error("OCR Error:", err);
     } finally {
       isProcessingRef.current = false;
+      
+      // Schedule next scan with a very small delay for "real-time" feel
+      if (cameraActive) {
+        intervalRef.current = setTimeout(captureAndScan, 400); 
+      }
 
       // FPS counter
       fpsRef.current.frames++;
@@ -137,7 +168,17 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
         fpsRef.current = { frames: 0, last: now };
       }
     }
-  }, [onResult]);
+  }, [onResult, cameraActive, isWorkerReady]);
+
+  // Start loop when worker is ready
+  useEffect(() => {
+    if (cameraActive && isWorkerReady) {
+      captureAndScan();
+    }
+    return () => {
+      if (intervalRef.current) clearTimeout(intervalRef.current);
+    }
+  }, [cameraActive, isWorkerReady, captureAndScan]);
 
   // Re-init worker when language changes
   useEffect(() => {
@@ -205,11 +246,11 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
             )}
 
             {/* Status badge */}
-            <div className="absolute top-3 left-3">
+            <div className="absolute top-3 left-3 flex flex-col gap-1">
               {status === "scanning" && (
                 <span className="flex items-center gap-1.5 px-2 py-1 bg-black/60 backdrop-blur-sm rounded-full text-[11px] font-bold text-emerald-400">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                  LIVE
+                  <span className={`w-1.5 h-1.5 rounded-full ${isWorkerReady ? "bg-emerald-400 animate-pulse" : "bg-amber-400 animate-spin"}`} />
+                  {isWorkerReady ? "LIVE SCANNING" : "INITIALIZING AI..."}
                 </span>
               )}
               {status === "detected" && (
@@ -217,6 +258,11 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
                   <CheckCircle2 className="w-3 h-3" />
                   DETECTED ({scanCount})
                 </span>
+              )}
+              {isWorkerReady && (
+                 <span className="text-[9px] text-white/40 font-mono bg-black/40 px-1.5 py-0.5 rounded-md self-start">
+                   {fps > 0 ? `${fps} FPS` : "READY"}
+                 </span>
               )}
             </div>
 

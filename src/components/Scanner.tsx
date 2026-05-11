@@ -132,16 +132,28 @@ export default function Scanner() {
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
+  const lastSavedRef = useRef<number>(0);
+  const lastFoundIdsRef = useRef<string>("");
+
   const handleLiveResult = (ingredients: Ingredient[], raw: string) => {
     // Check personal allergens for live results
     const enriched = ingredients.map(ing => ({
       ...ing,
       isPersonalAllergen: personalAllergens.some(a => a.toUpperCase() === ing.name.toUpperCase())
     }));
+    
     setResults(enriched);
     setRawText(raw);
     setImage(null);
-    saveToHistory(enriched, raw);
+    
+    // Throttle history: Save only if significant change or 15s passed
+    const now = Date.now();
+    const ids = ingredients.map(i => i.id).sort().join(",");
+    if (now - lastSavedRef.current > 15000 || ids !== lastFoundIdsRef.current) {
+      saveToHistory(enriched, raw);
+      lastSavedRef.current = now;
+      lastFoundIdsRef.current = ids;
+    }
   };
 
   const safetyBadge = () => {
@@ -210,7 +222,9 @@ export default function Scanner() {
   }
 
   // ─── RESULTS VIEW (upload / manual) ─────────────────────────────────
-  if (results !== null || isScanning) {
+  // Note: Only show this full results page if NOT in live mode.
+  // Live mode handles its own result display via overlays.
+  if (mode !== "live" && (results !== null || isScanning)) {
     return (
       <div className="flex flex-col h-full bg-surface animate-fade-in">
         {/* Image Preview / Header */}

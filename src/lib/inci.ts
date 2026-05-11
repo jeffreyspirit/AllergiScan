@@ -14,16 +14,20 @@ export interface Ingredient {
 
 export const inciDatabase = inciData as Ingredient[];
 
+// Pre-compile regexes for performance
+const compiledDatabase = inciDatabase.map(ing => ({
+  ...ing,
+  regex: new RegExp(`\\b${ing.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i')
+}));
+
 export function analyzeIngredients(text: string, personalAllergens: string[] = []): (Ingredient & { isPersonalAllergen?: boolean })[] {
   const upperText = text.toUpperCase();
   
-  return inciDatabase
+  return compiledDatabase
     .filter((ingredient) => {
-      // Use word boundaries for more accurate matching
-      const regex = new RegExp(`\\b${ingredient.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
-      return regex.test(upperText);
+      return ingredient.regex.test(upperText);
     })
-    .map(ing => ({
+    .map(({ regex, ...ing }) => ({
       ...ing,
       isPersonalAllergen: personalAllergens.some(a => a.toUpperCase() === ing.name.toUpperCase())
     }));
