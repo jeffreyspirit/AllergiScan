@@ -222,9 +222,9 @@ export default function Scanner() {
   }
 
   // ─── RESULTS VIEW (upload / manual) ─────────────────────────────────
-  // Note: Only show this full results page if NOT in live mode.
-  // Live mode handles its own result display via overlays.
-  if (mode !== "live" && (results !== null || isScanning)) {
+  // Note: At this point, we are guaranteed NOT to be in "live" mode
+  // because the live mode check above returns early.
+  if (results !== null || isScanning) {
     return (
       <div className="flex flex-col h-full bg-surface animate-fade-in">
         {/* Image Preview / Header */}
