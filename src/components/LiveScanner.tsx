@@ -37,6 +37,7 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
   const [showDebug, setShowDebug] = useState(false);
   const [accumulatedIngredients, setAccumulatedIngredients] = useState<Ingredient[]>([]);
   const accumulatedIdsRef = useRef<Set<string>>(new Set());
+  const rawTextBufferRef = useRef<string>("");
   const fpsRef = useRef({ frames: 0, last: Date.now() });
 
   // Initialise Tesseract worker
@@ -116,6 +117,7 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
     accumulatedIdsRef.current.clear();
     setLastIngredients([]);
     setScanCount(0);
+    rawTextBufferRef.current = "";
   }, []);
 
   const captureAndScan = useCallback(async () => {
@@ -150,31 +152,29 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
       const { data } = await workerRef.current.recognize(imageData);
       const text = data.text.trim();
 
-      if (text.length > 5) {
-        const found = analyzeIngredients(text);
-        if (found.length > 0) {
-          // Accumulate unique ingredients
-          let newlyFound = false;
-          const currentList = [...accumulatedIngredients];
-          
-          found.forEach(ing => {
-            if (!accumulatedIdsRef.current.has(ing.id)) {
-              accumulatedIdsRef.current.add(ing.id);
-              currentList.push(ing);
-              newlyFound = true;
-            }
-          });
+      if (text.length > 10) {
+        // Append new text to buffer, avoiding duplicates of the exact same string
+        if (!rawTextBufferRef.current.includes(text)) {
+           rawTextBufferRef.current += " " + text;
+        }
 
-          if (newlyFound) {
-            setAccumulatedIngredients(currentList);
-            setLastIngredients(currentList); // Update the display with the full accumulated list
-            setStatus("detected");
-            onResult(currentList, text);
-            setScanCount(currentList.length);
-            
-            // Flash detected status
-            setTimeout(() => setStatus("scanning"), 1000);
+        // Analyze the ENTIRE paragraph buffer
+        const found = analyzeIngredients(rawTextBufferRef.current);
+        
+        if (found.length > 0) {
+          setAccumulatedIngredients(found);
+          setLastIngredients(found); 
+          setStatus("detected");
+          onResult(found, rawTextBufferRef.current);
+          setScanCount(found.length);
+          
+          // Auto-lock if we found a significant amount of ingredients (e.g. > 10)
+          // or if the text is very long. This mimics a 'stable' read.
+          if (found.length > 15) {
+             // We can optionally pause here, but for now we continue
           }
+
+          setTimeout(() => setStatus("scanning"), 1500);
         }
       }
     } catch (err) {
