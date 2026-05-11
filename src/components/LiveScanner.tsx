@@ -31,6 +31,7 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
   const [status, setStatus] = useState<ScanStatus>("idle");
   const [scanCount, setScanCount] = useState(0);
   const [lastIngredients, setLastIngredients] = useState<Ingredient[]>([]);
+  const [selectedLang, setSelectedLang] = useState<"auto" | "tha" | "chi_sim" | "eng">("auto");
   const [fps, setFps] = useState(0);
   const [isWorkerReady, setIsWorkerReady] = useState(false);
   const [showDebug, setShowDebug] = useState(false);
