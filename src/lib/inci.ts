@@ -75,7 +75,7 @@ export function analyzeIngredients(text: string, personalAllergens: string[] = [
     });
   }
 
-  return Array.from(results.values()).map(({ regex, ...ing }) => ({
+  return Array.from(results.values()).map(ing => ({
     ...ing,
     isPersonalAllergen: personalAllergens.some(a => a.toUpperCase() === ing.name.toUpperCase())
   }));
