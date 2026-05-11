@@ -370,31 +370,44 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
 
       {/* Recent live results mini-bar */}
       {lastIngredients.length > 0 && cameraActive && (
-        <div className="bg-gray-900 border-t border-gray-800 px-4 py-2 flex-shrink-0">
-          <p className="text-[10px] text-gray-500 mb-1.5 uppercase tracking-wider font-semibold">Last detected</p>
-          <div className="flex gap-1.5 overflow-x-auto pb-1">
-            {lastIngredients.slice(0, 5).map((ing) => (
-              <span
+        <div className="bg-gray-950 border-t border-white/5 px-4 py-4 flex-shrink-0 animate-slide-up">
+          <div className="flex items-center justify-between mb-3">
+            <div>
+              <p className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em]">Live Analysis</p>
+              <h4 className="text-sm font-bold text-white">{lastIngredients.length} Ingredients Found</h4>
+            </div>
+            <div className="flex gap-2">
+              {lastIngredients.some(i => i.safetyProfile === "danger") && (
+                <span className="px-2 py-0.5 bg-red-500 text-white text-[8px] font-black rounded-lg uppercase">Risk</span>
+              )}
+              {lastIngredients.some(i => i.safetyProfile === "caution") && (
+                <span className="px-2 py-0.5 bg-amber-500 text-white text-[8px] font-black rounded-lg uppercase">Caution</span>
+              )}
+            </div>
+          </div>
+          
+          <div className="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
+            {lastIngredients.map((ing) => (
+              <div
                 key={ing.id}
-                className={`flex-shrink-0 flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-bold ${
+                className={`flex-shrink-0 flex flex-col gap-1 p-3 rounded-2xl min-w-[120px] border transition-all ${
                   ing.safetyProfile === "safe"
-                    ? "bg-emerald-900/60 text-emerald-400"
+                    ? "bg-emerald-500/5 border-emerald-500/20"
                     : ing.safetyProfile === "caution"
-                    ? "bg-amber-900/60 text-amber-400"
-                    : "bg-red-900/60 text-red-400"
+                    ? "bg-amber-500/5 border-amber-500/20"
+                    : "bg-red-500/5 border-red-500/20"
                 }`}
               >
-                {ing.safetyProfile === "safe" && <CheckCircle2 className="w-2.5 h-2.5" />}
-                {ing.safetyProfile === "caution" && <AlertTriangle className="w-2.5 h-2.5" />}
-                {ing.safetyProfile === "danger" && <ShieldAlert className="w-2.5 h-2.5" />}
-                {ing.name}
-              </span>
+                <div className="flex items-center justify-between">
+                   {ing.safetyProfile === "safe" && <CheckCircle2 className="w-3 h-3 text-emerald-400" />}
+                   {ing.safetyProfile === "caution" && <AlertTriangle className="w-3 h-3 text-amber-400" />}
+                   {ing.safetyProfile === "danger" && <ShieldAlert className="w-3 h-3 text-red-400" />}
+                   <span className="text-[8px] font-black text-white/30 uppercase">{ing.category || "General"}</span>
+                </div>
+                <p className="text-[10px] font-bold text-white line-clamp-1">{ing.name}</p>
+                <p className="text-[8px] text-white/50 line-clamp-2 leading-tight">{ing.description}</p>
+              </div>
             ))}
-            {lastIngredients.length > 5 && (
-              <span className="flex-shrink-0 px-2 py-1 rounded-full text-[10px] text-gray-500 bg-gray-800">
-                +{lastIngredients.length - 5} more
-              </span>
-            )}
           </div>
         </div>
       )}
