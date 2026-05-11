@@ -34,6 +34,8 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
   const [selectedLang, setSelectedLang] = useState<"auto" | "tha" | "chi_sim" | "eng">("auto");
   const [fps, setFps] = useState(0);
   const [isWorkerReady, setIsWorkerReady] = useState(false);
+  const [currentText, setCurrentText] = useState("");
+  const [showDebug, setShowDebug] = useState(false);
   const fpsRef = useRef({ frames: 0, last: Date.now() });
 
   // Initialise Tesseract worker
@@ -137,6 +139,7 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
     try {
       const { data } = await workerRef.current.recognize(imageData);
       const text = data.text.trim();
+      setCurrentText(text);
 
       if (text.length > 5) {
         const found = analyzeIngredients(text);
@@ -245,6 +248,14 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
               <div className="absolute inset-6 rounded-lg border-2 border-emerald-400 animate-pulse" />
             )}
 
+            {/* Debug Monitor (Visible AI) */}
+            {showDebug && (
+               <div className="absolute top-16 right-3 w-32 aspect-video bg-black/80 border border-white/20 rounded-lg overflow-hidden shadow-2xl z-20">
+                 <p className="text-[8px] text-white/50 px-1 py-0.5 bg-white/10 uppercase">AI Vision Monitor</p>
+                 <canvas ref={canvasRef} className="w-full h-full object-contain" />
+               </div>
+            )}
+
             {/* Status badge */}
             <div className="absolute top-3 left-3 flex flex-col gap-1">
               {status === "scanning" && (
@@ -259,12 +270,32 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
                   DETECTED ({scanCount})
                 </span>
               )}
-              {isWorkerReady && (
-                 <span className="text-[9px] text-white/40 font-mono bg-black/40 px-1.5 py-0.5 rounded-md self-start">
-                   {fps > 0 ? `${fps} FPS` : "READY"}
-                 </span>
-              )}
+              <div className="flex gap-1">
+                {isWorkerReady && (
+                   <span className="text-[9px] text-white/40 font-mono bg-black/40 px-1.5 py-0.5 rounded-md">
+                     {fps > 0 ? `${fps} FPS` : "READY"}
+                   </span>
+                )}
+                <button 
+                  onClick={() => setShowDebug(!showDebug)}
+                  className="text-[9px] text-white/40 font-mono bg-black/40 px-1.5 py-0.5 rounded-md hover:bg-white/10 transition-colors"
+                >
+                  {showDebug ? "HIDE VISION" : "SHOW VISION"}
+                </button>
+              </div>
             </div>
+
+            {/* OCR Preview Overlay */}
+            {cameraActive && currentText && status === "scanning" && (
+               <div className="absolute top-1/2 left-0 right-0 -translate-y-1/2 pointer-events-none px-10">
+                 <div className="bg-black/30 backdrop-blur-[2px] p-2 rounded-lg border border-white/5 text-center">
+                    <p className="text-[10px] text-white/30 font-mono uppercase tracking-widest mb-1">OCR Stream</p>
+                    <p className="text-xs text-white/60 font-medium line-clamp-2 italic">
+                      {currentText}
+                    </p>
+                 </div>
+               </div>
+            )}
 
             {/* Guide text */}
             <div className="absolute bottom-3 left-0 right-0 flex justify-center">
