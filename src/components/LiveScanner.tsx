@@ -31,11 +31,11 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
   const [status, setStatus] = useState<ScanStatus>("idle");
   const [scanCount, setScanCount] = useState(0);
   const [lastIngredients, setLastIngredients] = useState<Ingredient[]>([]);
-  const [selectedLang, setSelectedLang] = useState<"auto" | "tha" | "chi_sim" | "eng">("auto");
   const [fps, setFps] = useState(0);
   const [isWorkerReady, setIsWorkerReady] = useState(false);
-  const [currentText, setCurrentText] = useState("");
   const [showDebug, setShowDebug] = useState(false);
+  const [accumulatedIngredients, setAccumulatedIngredients] = useState<Ingredient[]>([]);
+  const accumulatedIdsRef = useRef<Set<string>>(new Set());
   const fpsRef = useRef({ frames: 0, last: Date.now() });
 
   // Initialise Tesseract worker
@@ -106,6 +106,15 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
     setCameraActive(false);
     setStatus("idle");
     isProcessingRef.current = false;
+    setAccumulatedIngredients([]);
+    accumulatedIdsRef.current.clear();
+  }, []);
+
+  const resetScan = useCallback(() => {
+    setAccumulatedIngredients([]);
+    accumulatedIdsRef.current.clear();
+    setLastIngredients([]);
+    setScanCount(0);
   }, []);
 
   const captureAndScan = useCallback(async () => {
@@ -139,18 +148,32 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
     try {
       const { data } = await workerRef.current.recognize(imageData);
       const text = data.text.trim();
-      setCurrentText(text);
 
       if (text.length > 5) {
         const found = analyzeIngredients(text);
         if (found.length > 0) {
-          setLastIngredients(found);
-          setStatus("detected");
-          onResult(found, text);
-          setScanCount((c) => c + 1);
+          // Accumulate unique ingredients
+          let newlyFound = false;
+          const currentList = [...accumulatedIngredients];
           
-          // Flash detected status for a bit then go back to scanning
-          setTimeout(() => setStatus("scanning"), 1000);
+          found.forEach(ing => {
+            if (!accumulatedIdsRef.current.has(ing.id)) {
+              accumulatedIdsRef.current.add(ing.id);
+              currentList.push(ing);
+              newlyFound = true;
+            }
+          });
+
+          if (newlyFound) {
+            setAccumulatedIngredients(currentList);
+            setLastIngredients(currentList); // Update the display with the full accumulated list
+            setStatus("detected");
+            onResult(currentList, text);
+            setScanCount(currentList.length);
+            
+            // Flash detected status
+            setTimeout(() => setStatus("scanning"), 1000);
+          }
         }
       }
     } catch (err) {
@@ -255,6 +278,15 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
                  <canvas ref={canvasRef} className="w-full h-full object-contain" />
                </div>
             )}
+            
+            <div className="absolute top-16 left-3 flex flex-col gap-1">
+               <button 
+                  onClick={() => setShowDebug(!showDebug)}
+                  className="text-[9px] text-white/40 font-mono bg-black/40 px-1.5 py-0.5 rounded-md hover:bg-white/10 transition-colors"
+                >
+                  {showDebug ? "HIDE VISION" : "AI VISION"}
+                </button>
+            </div>
 
             {/* Status badge */}
             <div className="absolute top-3 left-3 flex flex-col gap-1">
@@ -267,7 +299,7 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
               {status === "detected" && (
                 <span className="flex items-center gap-1.5 px-2 py-1 bg-emerald-500/80 backdrop-blur-sm rounded-full text-[11px] font-bold text-white">
                   <CheckCircle2 className="w-3 h-3" />
-                  DETECTED ({scanCount})
+                  FOUND {accumulatedIngredients.length}
                 </span>
               )}
               <div className="flex gap-1">
@@ -276,26 +308,16 @@ export default function LiveScanner({ onResult }: LiveScannerProps) {
                      {fps > 0 ? `${fps} FPS` : "READY"}
                    </span>
                 )}
-                <button 
-                  onClick={() => setShowDebug(!showDebug)}
-                  className="text-[9px] text-white/40 font-mono bg-black/40 px-1.5 py-0.5 rounded-md hover:bg-white/10 transition-colors"
-                >
-                  {showDebug ? "HIDE VISION" : "SHOW VISION"}
-                </button>
+                {accumulatedIngredients.length > 0 && (
+                   <button 
+                    onClick={resetScan}
+                    className="text-[9px] text-red-400 font-bold bg-black/60 px-2 py-0.5 rounded-md border border-red-400/20 active:scale-95 transition-all"
+                  >
+                    RESET
+                  </button>
+                )}
               </div>
             </div>
-
-            {/* OCR Preview Overlay */}
-            {cameraActive && currentText && status === "scanning" && (
-               <div className="absolute top-1/2 left-0 right-0 -translate-y-1/2 pointer-events-none px-10">
-                 <div className="bg-black/30 backdrop-blur-[2px] p-2 rounded-lg border border-white/5 text-center">
-                    <p className="text-[10px] text-white/30 font-mono uppercase tracking-widest mb-1">OCR Stream</p>
-                    <p className="text-xs text-white/60 font-medium line-clamp-2 italic">
-                      {currentText}
-                    </p>
-                 </div>
-               </div>
-            )}
 
             {/* Guide text */}
             <div className="absolute bottom-3 left-0 right-0 flex justify-center">
